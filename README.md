@@ -1,10 +1,10 @@
 # 📅 Enjunin Turnos
 
-> **Vitrina pública** del proyecto *Enjunin Turnos* — SaaS multitenant de
+> **Vitrina pública** del proyecto *enjunin Turnos* — SaaS multitenant de
 > gestión de turnos para consultorios y clínicas. Acá vas a encontrar
 > descripción, stack, **capturas reales del sistema en producción** y
 > roadmap; **el código fuente es privado**.
-> Hermana del portal [Enjunin Motors](https://github.com/GuCHoGaRCia/enjunin-motors).
+> Hermana del portal [enjunin Autos](https://github.com/GuCHoGaRCia/enjunin-motors).
 
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white)
@@ -16,11 +16,11 @@
 ## ¿Qué es?
 
 SaaS multitenant de turnos para consultorios: cada cuenta recibe su
-subdominio **`{cuenta}.turnos.enjunin.com.ar`** con su propia base de
+subdominio **`{cuenta}.enjunin.com.ar`** con su propia base de
 datos, y administra agenda, pacientes, caja y reportes; un panel central
 (super-admin) gestiona cuentas, planes, auditoría e impersonación
 firmada. Laravel con despliegue por FTP a hosting cPanel compartido —
-**convive en el mismo servidor que Enjunin Motors**.
+**convive en el mismo servidor/ecosistema de enjunin.com.ar**.
 
 > ✅ **En producción** desde noviembre de 2026: hosting cPanel con
 > despliegue por FTPS, migraciones por tenant, queue en base de datos y
